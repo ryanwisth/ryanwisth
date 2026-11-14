@@ -1,0 +1,50 @@
+# Ryan Wisth
+
+I build working AI tools by directing coding agents. I set the goal, the spec and the acceptance checks, the agents write most of the code, and I verify the result before it counts as done.
+
+I am looking for **AI product** and **technical project management** roles.
+
+Each project below is public, runs on invented or sample data, and states its real status and limits in its README.
+
+## Featured projects
+
+| Project | What it does | Proof |
+|---|---|---|
+| [genealogy-evidence-pipeline](https://github.com/ryanwisth/genealogy-evidence-pipeline) | Grows a family tree only from records. AI agents propose additions, Python checks what code can check, a second model tries to refute each claim, and accepted facts go into an append-only ledger with the quote they rest on. | Runs end to end offline on an invented 420-person family with one command. On the private tree it was built for, the skeptic agents rejected 31 claims from a fast first pass and 3 of 147 from a careful one. |
+| [claude-code-token-guard](https://github.com/ryanwisth/claude-code-token-guard) | Four hooks and nine cost-tiered subagent types that stop a Claude Code session, and the agents it spawns, from spending far more tokens than the work needs. | Every rule follows a measured leak in real session logs. One example: 482 of 662 spawned agents were running as the heavy default type, with a median first call of 53.8k tokens against 16k to 20k for the lean types. |
+| [claim-ledger](https://github.com/ryanwisth/claim-ledger) | A Claude Code skill and command-line tool for fact-checking a long AI-written report one claim at a time, riskiest first, with an add-only log of every verdict. | Built from a real 517-claim report checked in 29 batches. Replaying that ledger's 546 records reproduces its hand-made audit. Ships a 27-check self-test. |
+| [local-llm-mcp-servers](https://github.com/ryanwisth/local-llm-mcp-servers) | Six small MCP (Model Context Protocol) servers that give a locally hosted LLM live world events, market data, a dependency audit, a study coach and equation OCR. | Tools are shaped for a mid-sized local model: short tool lists, capped replies, arithmetic done in code. The README gives each server's status separately, from "working" to "built, not yet run with a key". |
+| [adaptive-drill-engine](https://github.com/ryanwisth/adaptive-drill-engine) | A local practice app for any multiple-choice subject. It groups questions by the mistake they test and drills each mistake pattern until it is mastered under time. | One Python file and one HTML file, standard library only. Comes with 21 original sample items, each with a machine check, and an importer for your own questions. |
+| [family-tree-3d](https://github.com/ryanwisth/family-tree-3d) | Turns a GEDCOM genealogy file into one self-contained, offline HTML page with a 3D family tree, a migration map, lineage and statistics views. | The 3D view is raw WebGL with no library. Two builds of the sample produce a byte-identical data file, and the build refuses to combine mismatched payloads. |
+
+## Case studies
+
+Short write-ups for readers who want the outcome, not the code: the problem, what I directed, how the results were verified, and what came of it.
+
+- [Making AI work checkable](https://ryanwisth.github.io/checking-ai-work.html): trust in AI output. One principle across the evidence pipeline, the claim ledger and the token guard.
+- [A 3D family tree in one offline file](https://ryanwisth.github.io/family-tree-3d.html): a visual product from messy data, from the family tree viewer.
+- [A practice app built around the mistake](https://ryanwisth.github.io/practice-engine.html): product rules set from a user problem, from the drill engine.
+- [AI feedback written in ink on an e-ink tablet](https://ryanwisth.github.io/paper-grader.html): AI inside a physical device, from the paper grader.
+- [A study built so it could fail](https://ryanwisth.github.io/pinball-study.html): pre-registered research with a negative result, from the pinball scorer.
+- [Turning a slipping process into enforced rules](https://ryanwisth.github.io/claim-ledger.html): a process failure turned into code, from the claim ledger.
+- [Finding where the AI budget went](https://ryanwisth.github.io/token-scan.html): measuring AI cost before cutting it, from the token scan.
+- [Decoding a colour e-ink display, safely](https://ryanwisth.github.io/display-research.html): hardware research done read-only first, from the display project.
+- [A Safari dark mode with fitted themes](https://ryanwisth.github.io/safari-dark-mode.html): a small product shipped end to end.
+
+## How I work
+
+- **Measure first.** The token guard's rules came from scanning my own session logs, and each hook was checked against the following week's scan.
+- **Put the rule in code, not in the prompt.** Written rules in a prompt did not hold, so the guard enforces them at the tool call. The claim ledger's record template is enforced the same way, after its first run showed the discipline slipping in late batches.
+- **Have a second pass try to refute the first.** In the genealogy pipeline a skeptic agent's stance is "when you cannot confirm, reject".
+- **State the limits.** Each README says what was verified, what was not, and what was left out.
+
+## More projects
+
+- [pinball-fun-scorer](https://github.com/ryanwisth/pinball-fun-scorer): pinball layout converter, 2D simulator and skill bots testing whether table design predicts player ratings
+- [remarkable-paper-grader](https://github.com/ryanwisth/remarkable-paper-grader): grades handwritten work on a reMarkable Paper Pro, with AI feedback written back as ink strokes
+- [paper-pro-display-re](https://github.com/ryanwisth/paper-pro-display-re): reverse engineering the reMarkable Paper Pro color e-ink display
+- [claude-code-token-scan](https://github.com/ryanwisth/claude-code-token-scan): scans Claude Code transcripts and reports token usage by project, model, day, session and tool
+- [agent-sdk-runner](https://github.com/ryanwisth/agent-sdk-runner): runs Markdown briefs through the Claude Agent SDK with auth, budget and turn guards
+- [local-ai-stack](https://github.com/ryanwisth/local-ai-stack): reference setup and runbook for a private, loopback-only local AI stack on an Apple-silicon Mac
+- [streaks-trainer](https://github.com/ryanwisth/streaks-trainer): local streak-mastery practice app
+- [safari-dark-mode](https://github.com/ryanwisth/safari-dark-mode): Safari extension for macOS with dark mode for any site in six themes
