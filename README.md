@@ -21,21 +21,21 @@ Short write-ups for readers who want the outcome, not the code: the problem, wha
 
 | Case study | What it shows |
 |---|---|
-| [Making AI work checkable](https://ryanwisth.github.io/checking-ai-work.html) | Trust in AI output. One principle across the evidence pipeline, the claim ledger and the token guard. |
-| [A 3D family tree in one offline file](https://ryanwisth.github.io/family-tree-3d.html) | A visual product from messy data, from the family tree viewer. |
-| [A practice app built around the mistake](https://ryanwisth.github.io/practice-engine.html) | Product rules set from a user problem, from the drill engine. |
-| [A family tree grown only from records](https://ryanwisth.github.io/evidence-pipeline.html) | Research that has to cite its records, from the evidence pipeline. |
-| [Turning a slipping process into enforced rules](https://ryanwisth.github.io/claim-ledger.html) | A process failure turned into code, from the claim ledger. |
-| [Spending rules an AI agent cannot forget](https://ryanwisth.github.io/token-guard.html) | Rules enforced in code instead of the prompt, from the token guard. |
-| [Finding where the AI budget went](https://ryanwisth.github.io/token-scan.html) | Measuring AI cost before cutting it, from the token scan. |
-| [Long agent jobs with the bill checked first](https://ryanwisth.github.io/agent-runner.html) | Guardrails for unattended AI work, from the agent runner. |
-| [Giving a local model tools it can use](https://ryanwisth.github.io/mcp-servers.html) | Tools shaped for the model that reads them, from the MCP servers. |
-| [A private AI assistant on one laptop](https://ryanwisth.github.io/local-ai-stack.html) | Many parts made to work on one machine, from the local AI stack. |
-| [AI feedback written in ink on an e-ink tablet](https://ryanwisth.github.io/paper-grader.html) | AI inside a physical device, from the paper grader. |
-| [Decoding a colour e-ink display, safely](https://ryanwisth.github.io/display-research.html) | Hardware research done read-only first, from the display project. |
-| [A study built so it could fail](https://ryanwisth.github.io/pinball-study.html) | Pre-registered research with a negative result, from the pinball scorer. |
-| [A practice app where one miss resets the streak](https://ryanwisth.github.io/streaks-trainer.html) | A method the product enforces, from the streaks trainer. |
-| [A Safari dark mode with fitted themes](https://ryanwisth.github.io/safari-dark-mode.html) | A small product shipped end to end. |
+| [Making AI work easy to check](https://ryanwisth.github.io/checking-ai-work.html) | Trust in AI output. One principle across the evidence pipeline, the claim ledger and the token guard. |
+| [A 3D family tree that opens from one file](https://ryanwisth.github.io/family-tree-3d.html) | A visual product from messy data, from the family tree viewer. |
+| [A study app built around mistakes](https://ryanwisth.github.io/practice-engine.html) | Product rules set from a user problem, from the drill engine. |
+| [A family tree built only from real records](https://ryanwisth.github.io/evidence-pipeline.html) | Research that has to cite its records, from the evidence pipeline. |
+| [A fact-checking routine that stopped slipping](https://ryanwisth.github.io/claim-ledger.html) | A process failure turned into code, from the claim ledger. |
+| [Spending rules an AI can’t skip](https://ryanwisth.github.io/token-guard.html) | Rules enforced in code instead of the prompt, from the token guard. |
+| [Finding where my AI spending went](https://ryanwisth.github.io/token-scan.html) | Measuring AI cost before cutting it, from the token scan. |
+| [Long AI jobs that check the bill first](https://ryanwisth.github.io/agent-runner.html) | Guardrails for unattended AI work, from the agent runner. |
+| [Giving the AI on my laptop tools to use](https://ryanwisth.github.io/mcp-servers.html) | Tools shaped for the model that reads them, from the MCP servers. |
+| [A private AI assistant on my laptop](https://ryanwisth.github.io/local-ai-stack.html) | Many parts made to work on one machine, from the local AI stack. |
+| [AI feedback, handwritten onto a paper tablet](https://ryanwisth.github.io/paper-grader.html) | AI inside a physical device, from the paper grader. |
+| [A study set up so it could prove me wrong](https://ryanwisth.github.io/pinball-study.html) | Pre-registered research with a negative result, from the pinball scorer. |
+| [A study app where one wrong answer resets your streak](https://ryanwisth.github.io/streaks-trainer.html) | A method the product enforces, from the streaks trainer. |
+| [Dark mode for any website in Safari](https://ryanwisth.github.io/safari-dark-mode.html) | A small product shipped end to end. |
+| [Claude Code, run from my iPhone](https://ryanwisth.github.io/claude-phone.html) | Mobile access to a desktop tool over a private network; repo: private. |
 
 ## Featured projects
 
