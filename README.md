@@ -1,15 +1,13 @@
 <a href="https://ryanwisth.github.io/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryanwisth/ryanwisth/main/assets/banner-dark.jpg">
-    <img src="https://raw.githubusercontent.com/ryanwisth/ryanwisth/main/assets/banner-light.jpg" alt="Ryan Wisth: I build working AI tools by directing coding agents. Open to AI product and technical project management roles." width="100%">
+    <img src="https://raw.githubusercontent.com/ryanwisth/ryanwisth/main/assets/banner-light.jpg" alt="Ryan Wisth: I build working AI tools by directing coding agents." width="100%">
   </picture>
 </a>
 
 # Ryan Wisth
 
 **I build working AI tools by directing coding agents.** I set the goal, the spec and the acceptance checks, the agents write most of the code, and I verify the result before it counts as done.
-
-I am looking for **AI product** and **technical project management** roles.
 
 **[Portfolio site](https://ryanwisth.github.io/)** &nbsp;·&nbsp; [Case studies](#case-studies) &nbsp;·&nbsp; [Featured projects](#featured-projects) &nbsp;·&nbsp; [How I work](#how-i-work)
 
@@ -36,6 +34,7 @@ Short write-ups for readers who want the outcome, not the code: the problem, wha
 | [A study app where one wrong answer resets your streak](https://ryanwisth.github.io/streaks-trainer.html) | A method the product enforces, from the streaks trainer. |
 | [Dark mode for any website in Safari](https://ryanwisth.github.io/safari-dark-mode.html) | A small product shipped end to end. |
 | [Claude Code, run from my iPhone](https://ryanwisth.github.io/claude-phone.html) | Mobile access to a desktop tool over a private network; repo: private. |
+| [Game Boy link play, with no cable](https://ryanwisth.github.io/slot.html) | The link play, Share Game and screen features I designed for Slot, an open-source Game Boy game menu for handhelds, tested on four handhelds; no repo of my own. |
 
 ## Featured projects
 
