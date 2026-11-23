@@ -1,7 +1,7 @@
 <a href="https://ryanwisth.github.io/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryanwisth/ryanwisth/main/assets/banner-dark.jpg">
-    <img src="https://raw.githubusercontent.com/ryanwisth/ryanwisth/main/assets/banner-light.jpg" alt="Ryan Wisth: I build working AI tools by directing coding agents." width="100%">
+    <img src="https://raw.githubusercontent.com/ryanwisth/ryanwisth/main/assets/banner-light.jpg" alt="Ryan Wisth: I build useful tools with AI, and I test every one. 16 projects, each built with AI and tested." width="100%">
   </picture>
 </a>
 
